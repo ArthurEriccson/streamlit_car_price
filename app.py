@@ -16,7 +16,7 @@ st.markdown(html_temp,unsafe_allow_html=True)
 #model_rf = open("model_rf.pkl","rb")
 #model = joblib.load(model_rf)
 
-model= pickle.load(open('model_rf.pkl', 'rb'))
+model = pickle.load(open('model_rf.pkl', 'rb'))
 
 features = pickle.load(open('model_features.pkl', 'rb'))
 
